@@ -4,10 +4,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+Note: Install axios library to fetch data.
+Install JSON server to get data from db.json
+Start JSON server then run project using command npm start.
 ### `npm start`
+
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Note: Please check it 3000 port is getting use by JSON server or else mention port on which you want to run.
+If same port will be getting use by JSON server then project will not run. Please check port number.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
